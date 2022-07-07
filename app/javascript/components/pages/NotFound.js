@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import { Container } from 'reactstrap'
 
 export default class NotFound extends Component {
   render() {
     return (
-      <h3>NotFound</h3>
+      <Container>
+        <h1>Error 404 - Page Not Found</h1>
+      </Container>
     )
   }
 }

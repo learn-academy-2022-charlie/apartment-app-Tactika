@@ -1,9 +1,12 @@
 import React, { Component } from 'react'
+import { Container } from 'reactstrap'
 
 export default class ApartmentNew extends Component {
   render() {
     return (
-      <h3>ApartmentNew</h3>
+      <Container>
+        <h3>Create an Apartment</h3>
+      </Container>
     )
   }
 }

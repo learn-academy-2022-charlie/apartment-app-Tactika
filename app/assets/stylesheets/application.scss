@@ -13,4 +13,16 @@
  *= require_tree .
  *= require_self
  */
+
 @import 'bootstrap';
+
+body {
+    padding-top: 56px;
+}
+.footer {
+    max-height: 50px;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    text-align: center;
+}

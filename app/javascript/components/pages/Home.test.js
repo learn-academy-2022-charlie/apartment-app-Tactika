@@ -18,6 +18,11 @@ describe("When Home renders", () => {
     const home = shallow(<Home />)
     const homeHeading = home.find("h3")
     console.log("HOME", homeHeading.debug());
-    expect(homeHeading.text()).toEqual("This Should Fail")
+    expect(homeHeading.text().length).toBeGreaterThan(0)
+  })
+  it("displays intro statement", () => {
+    const home = shallow(<Home />)
+    const homeStatement = home.find("p")
+    expect(homeStatement.text().length).toBeGreaterThan(0)
   })
 })

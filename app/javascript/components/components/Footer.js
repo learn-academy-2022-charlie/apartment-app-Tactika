@@ -3,7 +3,11 @@ import React, { Component } from 'react'
 export default class Footer extends Component {
   render() {
     return (
-      <h3>Footer</h3>
+      <footer className="footer">
+        <div className="container">
+          <span>&copy; 2022 Villaeo</span>
+        </div>
+      </footer>
     )
   }
 }
